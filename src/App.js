@@ -3,7 +3,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { Home } from './pages'
+import { Home, Page404 } from './pages'
 
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
         <Route exact path='/' >
           <Home />
         </Route>
+        <Page404 />
       </Switch>
     </div>
   )

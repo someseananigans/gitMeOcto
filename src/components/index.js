@@ -1,3 +1,5 @@
 export { default as Navbar } from "./Navbar/Navbar"
 export { default as Searchbar } from "./Searchbar/Searchbar"
 export { default as Header } from "./Header/Header"
+export { default as UserCard } from "./UserCard/UserCard"
+export { default as RepoCard } from "./RepoCard/RepoCard"
