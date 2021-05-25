@@ -8,7 +8,7 @@ export const Card = styled.div`
   justify-content: center;
   height: 100%;
   width: 100%;
-  margin: 60px auto 40px auto;
+  margin: 60px auto 30px auto;
   opacity: ${({ search }) => search ? '1' : '0'};
   transition: .5s ease-in-out;
 `
@@ -28,18 +28,20 @@ export const Profile = styled.img`
 `
 
 export const Username = styled.a`
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   color: #dadada;
-  margin-bottom: 5px;
+  font-weight: 600;
+  /* margin-bottom: 5px; */
   &:hover{
     color: #aef6ff;
   }
+  margin-bottom: 2px;
 `
 
 export const Name = styled.a`
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  
   text-decoration: none;
   color: #e7e7e7;
   &:hover{
@@ -49,7 +51,7 @@ export const Name = styled.a`
 
 export const FollowWrap = styled.div`
   display: flex;
-  
+  margin-bottom: 2px;
 `
 
 export const FollowItems = styled.a`
@@ -68,3 +70,19 @@ export const SocialWrapper = styled.div`
 export const SocialIcons = styled.a`
 
 `
+
+export const Website = styled.a`
+  text-decoration: none;
+  color: #c2c2c2;
+  font-weight: 100;
+  &:hover{
+    color: #aef6ff;
+  }
+  margin-bottom: 2px;
+`
+
+export const Bio = styled.p`
+  color: #c2c2c2;
+  margin-bottom: 2px;
+`
+
